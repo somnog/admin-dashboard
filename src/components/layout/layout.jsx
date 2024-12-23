@@ -56,18 +56,18 @@ const MyLayout = () => {
             {
               key: '1',
               icon: <UserOutlined />,
-              label: <Link to={'/dashboard/Facilitators'}>Facilitators</Link>,
+              label: <Link to={'/Facilitators'}>Facilitators</Link>,
             },
             {
               key: '2',
               icon: <VideoCameraOutlined />,
-              label: <Link to={'/dashboard/Tracks'}>Tracks</Link>,
+              label: <Link to={'/Tracks'}>Tracks</Link>,
             },
-            {
-              key: '3',
-              icon: <UserOutlined />,
-              label: <Link to={'/dashboard/Users'}>Users</Link>,
-            },
+            // {
+            //   key: '3',
+            //   icon: <UserOutlined />,
+            //   label: <Link to={'/Users'}>Users</Link>,
+            // },
           ]}
         />
       </Sider>
